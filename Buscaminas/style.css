@@ -1,0 +1,208 @@
+
+
+.Index{
+   
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+.Index li {
+  margin-bottom: 10px;
+}
+.s label {
+  display: inline-block;
+  margin-right: 10px;
+}
+.s input {
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+}
+nav {
+  background-color: #02394d;
+  padding: 0px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 13px;
+  transition: all 0.3s ease;
+}
+#inicio a{
+   color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 13px;
+  transition: all 0.3s ease; 
+}
+#inicio{
+  background-color: #02394d;
+}
+#inicio a:hover{
+  background-color: #fff;
+  color: #333;
+}
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 0px;
+}
+
+button {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #02394d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00171f;
+}
+
+#errores {
+  color: red;
+  margin-top: 10px;
+}
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 2rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Estilos específicos */
+#doss,
+#tress,
+#cuatro,
+#primos,
+#imprimircadena {
+  margin-top: 0.5rem;
+}
+
+#Usuario,
+#Contra,
+#confirmContra,
+#NumeroPrimo,
+#texto {
+  width: 100%;
+}
+
+footer {
+    background-color: #02394d;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+th {
+  background-color: #CCC;
+}
+
+tr:nth-child(even) {
+  background-color: #EEE;
+}
+
+tr:hover {
+  background-color: #DDD;
+}
